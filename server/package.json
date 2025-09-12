@@ -1,0 +1,19 @@
+{
+  "name": "metal-slug-game-server",
+  "version": "1.0.0",
+  "description": "A simple WebSocket game server for Metal Slug-style multiplayer game",
+  "main": "game-server.js",
+  "scripts": {
+    "start": "node game-server.js",
+    "dev": "nodemon game-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["websocket", "game-server", "multiplayer", "metal-slug"],
+  "author": "Game Developer",
+  "license": "MIT"
+}

@@ -1,0 +1,33 @@
+{
+  "gravity": {
+    "x": 0,
+    "y": -980
+  },
+  "allowSleep": true,
+  "maxSubSteps": 1,
+  "fixedTimeStep": 0.0166667,
+  "groups": [
+    {
+      "name": "Default",
+      "index": 1
+    },
+    {
+      "name": "Player",
+      "index": 2
+    },
+    {
+      "name": "Bullet",
+      "index": 4
+    },
+    {
+      "name": "Platform",
+      "index": 8
+    }
+  ],
+  "collisionMatrix": [
+    [true, true, true, true],
+    [true, true, false, true],
+    [true, false, false, true],
+    [true, true, true, true]
+  ]
+}
